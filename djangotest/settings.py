@@ -29,7 +29,7 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
-
+#when boot up -> djagngotest -> settings.py -> look at INSTALLED_APPS -> MODELS (in this case)
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'music.apps.MusicConfig',
 ]
 
 MIDDLEWARE = [
