@@ -32,8 +32,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/music/templates/music/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="80">
-                  <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+                <state relative-caret-position="100">
+                  <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -397,8 +397,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/music/templates/music/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+        <state relative-caret-position="100">
+          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
         </state>
       </provider>
     </entry>
