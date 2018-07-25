@@ -1,5 +1,7 @@
 from django.urls import path
 from . import views
+
+app_name = 'music'
 # IF UNABLE TO FIND; POSSIBLE SCENARIO: ADD AN "/" TO THE URL PATTERN
 urlpatterns = [
     # /music/
