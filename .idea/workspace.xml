@@ -27,12 +27,7 @@
               <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/music/views.py">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="80">
-                      <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-                      <folding>
-                        <element signature="e#0#35#0" expanded="true" />
-                      </folding>
-                    </state>
+                    <state relative-caret-position="-240" />
                   </provider>
                 </entry>
               </file>
@@ -61,14 +56,11 @@
           </split-first>
           <split-second>
             <leaf>
-              <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/music/views.py">
+              <file leaf-file-name="detail.html" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/music/templates/music/detail.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="100">
-                      <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
-                      <folding>
-                        <element signature="e#0#35#0" expanded="true" />
-                      </folding>
+                    <state>
+                      <caret column="11" selection-start-column="11" selection-end-column="11" />
                     </state>
                   </provider>
                 </entry>
@@ -79,11 +71,23 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/music/models.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="280">
                   <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/music/views.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="400">
+                  <caret line="20" column="63" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
+                  <folding>
+                    <element signature="e#1#32#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -115,8 +119,9 @@
         <option value="$PROJECT_DIR$/music/models.py" />
         <option value="$PROJECT_DIR$/djangotest/settings.py" />
         <option value="$PROJECT_DIR$/music/urls.py" />
-        <option value="$PROJECT_DIR$/music/views.py" />
         <option value="$PROJECT_DIR$/music/templates/music/index.html" />
+        <option value="$PROJECT_DIR$/music/templates/music/detail.html" />
+        <option value="$PROJECT_DIR$/music/views.py" />
       </list>
     </option>
   </component>
@@ -277,7 +282,7 @@
         <state relative-caret-position="320">
           <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#1#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -407,20 +412,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/music/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/music/templates/music/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/music/templates/music/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/music/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="63" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
+          <folding>
+            <element signature="e#1#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
