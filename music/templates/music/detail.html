@@ -14,9 +14,9 @@
         <label for="song{{ forloop.count }}">
             {{ song.song_title }}
             {% if song.is_favorite %}
-                <img src="http://i.imgur.com/b9b13Rd.png" />
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Red_star.svg/2000px-Red_star.svg.png" />
             {% endif %}
         </label><br>
     {% endfor %}
-    <input type="submit" value="Favorite"
+    <input type="submit" value="Favorite">
 </form>
