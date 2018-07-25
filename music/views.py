@@ -2,18 +2,20 @@ from django.shortcuts import render
 
 # Create your views here.
 from django.http import HttpResponse
+from django.template import loader
 from .models import Album
 
 
 def index(request):
     # stores all albums in database into all_albums
-    # returns the html version of all albums
     all_albums = Album.objects.all()
-    html = ''
-    for album in all_albums:
-        url = "/music/" + str(album.id) + "/"
-        html += '<a href="' + url + '">' + album.album_title + '</a><br>'
-    return HttpResponse(html)
+    # django already set up to look into a template dir (if u create or it exists)
+    template = loader.get_template("music/index.html")
+    context = {
+        'all_albums': all_albums,
+    }
+    return HttpResponse(template.render(context, request))
+
 
 
 def detail(request, album_id):
