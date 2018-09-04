@@ -7,11 +7,9 @@ app_name = 'music'
 # IF UNABLE TO FIND; POSSIBLE SCENARIO: ADD AN "/" TO THE URL PATTERN
 urlpatterns = [
     # /music/
-    path("", views.index, name='index'),
+    path("", views.IndexView.as_view(), name='index'),
 
     # /music/71/
-    path("<int:album_id>/", views.detail, name='detail'),
+    path("<int:pk>/", views.DetailView.as_view(), name='detail'),
 
-    # /music/album_id>/favorite/
-    path("<int:album_id>/favorite/", views.favorite, name='favorite'),
 ]
