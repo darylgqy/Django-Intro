@@ -3,11 +3,15 @@ from . import views
 from django.contrib import admin
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
+
 app_name = 'music'
 # IF UNABLE TO FIND; POSSIBLE SCENARIO: ADD AN "/" TO THE URL PATTERN
 urlpatterns = [
     # /music/
     path("", views.IndexView.as_view(), name='index'),
+
+    # /music/register/
+    path("register/", views.UserFormView.as_view(), name='registration_html'),
 
     # /music/71/
     path("<int:pk>/", views.DetailView.as_view(), name='detail'),
