@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90ec1805-3e9e-4079-b00b-4218e921757a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/music/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/music/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/music/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,7 +34,7 @@
           <entry key="html" value="8" />
           <entry key="jpg" value="1" />
           <entry key="js" value="1" />
-          <entry key="py" value="21" />
+          <entry key="py" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -45,7 +43,7 @@
           <entry key="HTML" value="8" />
           <entry key="Image" value="1" />
           <entry key="JavaScript" value="1" />
-          <entry key="Python" value="21" />
+          <entry key="Python" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -53,7 +51,7 @@
           <entry key="css" value="146" />
           <entry key="html" value="3368" />
           <entry key="js" value="54" />
-          <entry key="py" value="1968" />
+          <entry key="py" value="2247" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -61,7 +59,7 @@
           <entry key="CSS" value="146" />
           <entry key="HTML" value="3368" />
           <entry key="JavaScript" value="54" />
-          <entry key="Python" value="1968" />
+          <entry key="Python" value="2247" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -150,15 +148,29 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/music/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="58">
+              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/music/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+            <state relative-caret-position="520">
+              <caret line="44" column="12" lean-forward="true" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
-                <marker date="1536545887244" expanded="true" signature="751:756" ph="..." />
-                <marker date="1536545887244" expanded="true" signature="863:868" ph="..." />
+                <marker date="1536546436553" expanded="true" signature="751:756" ph="..." />
+                <marker date="1536546436553" expanded="true" signature="863:868" ph="..." />
+                <marker date="1536546436553" expanded="true" signature="981:986" ph="..." />
+                <marker date="1536546436553" expanded="true" signature="1106:1215" ph="..." />
               </folding>
             </state>
           </provider>
@@ -228,8 +240,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-107" />
+    <option name="y" value="2" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
@@ -464,16 +477,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/music/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/music/templates/music/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -547,14 +550,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/music/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/music/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        <state relative-caret-position="520">
+          <caret line="44" column="12" lean-forward="true" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
-            <marker date="1536545887244" expanded="true" signature="751:756" ph="..." />
-            <marker date="1536545887244" expanded="true" signature="863:868" ph="..." />
+            <marker date="1536546436553" expanded="true" signature="751:756" ph="..." />
+            <marker date="1536546436553" expanded="true" signature="863:868" ph="..." />
+            <marker date="1536546436553" expanded="true" signature="981:986" ph="..." />
+            <marker date="1536546436553" expanded="true" signature="1106:1215" ph="..." />
           </folding>
         </state>
       </provider>
