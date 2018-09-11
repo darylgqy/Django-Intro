@@ -2,12 +2,13 @@ from django.urls import path
 from . import views
 from django.contrib import admin
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
-
-
+# when boot up -> djagngotest -> settings.py -> look at INSTALLED_APPS -> MODELS (in this case)
+# djangotest/urls.py --> music/urls.py
+# each url is connected to one view to some html
 app_name = 'music'
 # IF UNABLE TO FIND; POSSIBLE SCENARIO: ADD AN "/" TO THE URL PATTERN
 urlpatterns = [
-    # /music/
+    # /Bokeh/
     path("", views.IndexView.as_view(), name='index'),
 
     # /music/register/

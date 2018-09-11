@@ -6,7 +6,7 @@ from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate, login
 from django.views.generic import View
 from .forms import UserForm
-
+# Views.py is a simple function to return some HTML
 class IndexView(generic.ListView):
     template_name = 'music/index.html'
     context_object_name = 'all_albums'
